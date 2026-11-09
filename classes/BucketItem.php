@@ -12,12 +12,15 @@ class BucketItem
     public function __construct(
         string $name,
         string $description,
-        int $priority
+        int $priority,
+        ?int $id = null,
+        ?DateTime $createdAt = null
     ) {
+        $this->id = $id ?? 0;
         $this->name = $name;
         $this->description = $description;
         $this->priority = $priority;
-        $this->createdAt = new DateTime();
+        $this->createdAt = $createdAt ?? new DateTime();
     }
 
     public function getId(): int
