@@ -52,4 +52,14 @@ VALUES
     'Learn to surf',
     'Take surfing lessons and learn to ride the waves.',
     3
+),
+(
+    'Travel to New York',
+    'Explore Manhattan, visit Times Square and experience the city.',
+    4
+),
+(
+    'Go on a road trip',
+    'Travel through Europe and discover new places and cultures.',
+    5
 );
