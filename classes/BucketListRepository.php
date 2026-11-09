@@ -80,33 +80,35 @@ class BucketListRepository
      * @param BucketItem $item
      * @return BucketItem
      */
-    public function save(BucketItem $item): BucketItem
-    {
-        $sql = "INSERT INTO bucket_items
-                (name, description, priority)
-                VALUES (?, ?, ?)";
+   public function save(BucketItem $item): BucketItem
+{
+    $sql = "INSERT INTO bucket_items
+            (name, description, priority)
+            VALUES (?, ?, ?)";
 
-        $stmt = $this->connection->prepare($sql);
+    $stmt = $this->connection->prepare($sql);
 
-        $name = $item->getName();
-        $description = $item->getDescription();
-        $priority = $item->getPriority();
+    $name = $item->getName();
+    $description = $item->getDescription();
+    $priority = $item->getPriority();
 
-        $stmt->bind_param(
-            "ssi",
-            $name,
-            $description,
-            $priority
-        );
+    $stmt->bind_param(
+        "ssi",
+        $name,
+        $description,
+        $priority
+    );
 
-        $stmt->execute();
+    $stmt->execute();
 
-        $id = $this->connection->insert_id;
+    $id = $this->connection->insert_id;
 
-        $stmt->close();
+    $stmt->close();
 
-        return $this->findById($id);
-    }
+    $item->setId($id);
+
+    return $this->findById($id);
+}
 
     /**
      * Updates an existing bucket list item.
