@@ -1,0 +1,41 @@
+
+# ==========================================
+# Miljövariabler och känsliga uppgifter
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# Databasinställningar med lösenord
+config/database.php
+
+# ==========================================
+# Operativsystem
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# IDE och editorer
+# ==========================================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+.idea/
+
+# ==========================================
+# Loggfiler
+# ==========================================
+*.log
+logs/
+
+# ==========================================
+# Temporära filer och cache
+# ==========================================
+tmp/
+temp/
+cache/
+*.tmp
+*.bak
+*.swp
