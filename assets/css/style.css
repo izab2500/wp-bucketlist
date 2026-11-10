@@ -436,6 +436,26 @@ p {
     margin-bottom: 1.2rem;
 }
 
+/* ABOUT PAGE CARD TYPOGRAPHY */
+
+.about-card-title {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--navy);
+    margin-bottom: 1rem;
+}
+
+.about-card-text {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--navy);
+    opacity: 0.75;
+    margin-bottom: 0;
+}
+
 /* ---------- AI PAGE ---------- */
 
 .ai-section {

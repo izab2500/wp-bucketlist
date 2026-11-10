@@ -98,9 +98,9 @@ require_once __DIR__ . '/includes/header.php';
             <article class="card">
                 <div class="card-icon">01</div>
 
-                <h3>Object-oriented PHP</h3>
+                <h3 class="about-card-title">Object-oriented PHP</h3>
 
-                <p>
+                <p class="about-card-text">
                     PHP classes are used to separate responsibilities
                     and organize the application into manageable parts.
                 </p>
@@ -109,9 +109,9 @@ require_once __DIR__ . '/includes/header.php';
             <article class="card">
                 <div class="card-icon">02</div>
 
-                <h3>MySQL database</h3>
+                <h3 class="about-card-title">MySQL database</h3>
 
-                <p>
+                <p class="about-card-text">
                     A relational database stores bucketlist items,
                     including their names, descriptions, priorities
                     and creation dates.
@@ -121,9 +121,9 @@ require_once __DIR__ . '/includes/header.php';
             <article class="card">
                 <div class="card-icon">03</div>
 
-                <h3>Responsive frontend</h3>
+                <h3 class="about-card-title">Responsive frontend</h3>
 
-                <p>
+                <p class="about-card-text">
                     HTML, CSS and JavaScript provide the interface,
                     responsive layout and interactive elements.
                 </p>
@@ -239,24 +239,24 @@ require_once __DIR__ . '/includes/header.php';
         <div class="card-grid">
 
             <article class="card">
-                <h3>PHP</h3>
-                <p>
+                <h3 class="about-card-title">PHP</h3>
+                <p class="about-card-text">
                     Handles server-side logic, form processing
                     and communication between application layers.
                 </p>
             </article>
 
             <article class="card">
-                <h3>MySQL & MySQLi</h3>
-                <p>
+                <h3 class="about-card-title">MySQL & MySQLi</h3>
+                <p class="about-card-text">
                     Stores information and provides a connection
                     between PHP and the relational database.
                 </p>
             </article>
 
             <article class="card">
-                <h3>Git & GitHub</h3>
-                <p>
+                <h3 class="about-card-title">Git & GitHub</h3>
+                <p class="about-card-text">
                     Version control makes it possible to track
                     changes, manage development and maintain
                     the project over time.
