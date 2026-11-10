@@ -73,7 +73,7 @@ require_once __DIR__ . '/includes/header.php';
 
 
 <!-- HOW AI WAS USED -->
-<section class="section section-dark">
+<section class="ai-section section-dark">
     <div class="container">
 
         <div class="section-header">
@@ -91,7 +91,7 @@ require_once __DIR__ . '/includes/header.php';
 
         <div class="card-grid">
 
-            <article class="card">
+            <article class="ai-card">
                 <div class="card-icon">01</div>
 
                 <h3>Code assistance</h3>
@@ -102,7 +102,7 @@ require_once __DIR__ . '/includes/header.php';
                 </p>
             </article>
 
-            <article class="card">
+            <article class="ai-card">
                 <div class="card-icon">02</div>
 
                 <h3>Design inspiration</h3>
@@ -113,7 +113,7 @@ require_once __DIR__ . '/includes/header.php';
                 </p>
             </article>
 
-            <article class="card">
+            <article class="ai-card">
                 <div class="card-icon">03</div>
 
                 <h3>Problem-solving</h3>
