@@ -528,6 +528,7 @@ require_once __DIR__ . '/includes/header.php';
                 name="priority"
                 required
             >
+                <option value="" disabled>Choose priority</option>
 
                 <?php foreach ($priorityLabels as $value => $label): ?>
 
