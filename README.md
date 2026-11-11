@@ -57,4 +57,4 @@ För mig handlar utveckling inte bara om att få något att fungera, utan också
 
 ## Hitta till webbplatsen
 
-[Länk till webbplatsen](#)
+[besök webbplatsen](https://studenter.miun.se/~ziba2500/dt209g/bucketlist/index.php)
